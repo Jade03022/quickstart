@@ -1,12 +1,10 @@
 package com.restorer.quickstart.services.impl;
 
 import com.restorer.quickstart.services.RedPrinter;
-import org.springframework.stereotype.Component;
 
-@Component
-public class EnglishRedPrinter implements RedPrinter{
+public class SpanishRedPrinter implements RedPrinter{
     @Override
     public String print(){
-        return "red";
+        return "rojo";
     }
 }

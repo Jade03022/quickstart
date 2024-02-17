@@ -8,6 +8,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class ColorsApplication implements CommandLineRunner {
+    private ColorPrinter colorPrinter;
+
+    public ColorsApplication(ColorPrinter colorPrinter){
+        this.colorPrinter = colorPrinter;
+    }
     private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ColorsApplication.class);
 
     public static void main(String[] args) {
@@ -16,7 +21,6 @@ public class ColorsApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        ColorPrinter colorPrinter = new ColorPrinterImpl();
         log.info(colorPrinter.print());
     }
 }
