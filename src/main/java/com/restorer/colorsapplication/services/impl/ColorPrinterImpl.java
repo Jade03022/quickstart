@@ -1,9 +1,9 @@
-package com.restorer.quickstart.services.impl;
+package com.restorer.colorsapplication.services.impl;
 
-import com.restorer.quickstart.services.ColorPrinter;
-import com.restorer.quickstart.services.RedPrinter;
-import com.restorer.quickstart.services.GreenPrinter;
-import com.restorer.quickstart.services.BluePrinter;
+import com.restorer.colorsapplication.services.RedPrinter;
+import com.restorer.colorsapplication.services.ColorPrinter;
+import com.restorer.colorsapplication.services.GreenPrinter;
+import com.restorer.colorsapplication.services.BluePrinter;
 import org.springframework.stereotype.Component;
 
 @Component

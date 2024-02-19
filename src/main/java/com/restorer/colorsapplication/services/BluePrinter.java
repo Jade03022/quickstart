@@ -1,4 +1,4 @@
-package com.restorer.quickstart.services;
+package com.restorer.colorsapplication.services;
 
 public interface BluePrinter{
     String print();

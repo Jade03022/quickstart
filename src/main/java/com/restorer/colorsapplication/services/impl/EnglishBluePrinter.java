@@ -1,6 +1,6 @@
-package com.restorer.quickstart.services.impl;
+package com.restorer.colorsapplication.services.impl;
 
-import com.restorer.quickstart.services.BluePrinter;
+import com.restorer.colorsapplication.services.BluePrinter;
 
 
 public class EnglishBluePrinter implements BluePrinter{
