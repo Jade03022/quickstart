@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.jdbc.core.JdbcTemplate;
 import javax.sql.DataSource;
 
+/*
 @SpringBootApplication
 @Log
 public class DatabaseApplication implements CommandLineRunner {
@@ -25,5 +26,14 @@ public class DatabaseApplication implements CommandLineRunner {
         log.info("Datasource: " + dataSource.toString());
         final JdbcTemplate restTemplate = new JdbcTemplate(dataSource);
         restTemplate.execute("select 1");
+    }
+}
+*/
+
+@SpringBootApplication
+@Log
+public class DatabaseApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(DatabaseApplication.class, args);
     }
 }
